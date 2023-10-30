@@ -55,7 +55,17 @@ Ukuran=input("pilih ukuran pizza anda: ")
 if Ukuran=="Personal":
     Hargatotal+=0
     print("Harga pizza anda Rp. ", Hargatotal)
+elif Ukuran=="Regular":
+    HargaUkuran=55000
+    print("Harga pizza anda Rp. ", HargatotalUkuran)
+else: 
+    HargaUkuran=89091
+    Hargatotalukuran=Hargatotal+HargaUkuran
+    Print("harga pizza anda Rp. ", Hargatotalukuran)
 
+#Tambahan cheese
+ExtraCheese = input("Apakah anda ingin Extra Cheese? (Ya/Tidak): ")
+if ExtraCheese
 
 
 
