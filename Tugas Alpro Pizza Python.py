@@ -1,4 +1,4 @@
-print("Selamat Datang di Pizza Hut Deliveries!")
+print("Selamat Datang di Pizza Python")
 
 #pilih topping 
 print("===============")
@@ -16,7 +16,6 @@ ToppingPizza=input("mau topping apa? ")
 #pilih crust
 print("===============")
 print("Varian Crust : ")
-print("===============")
 print("Pan")
 print("StuffedCrust Cheese")
 print("StuffedCrust Sausage")
@@ -66,6 +65,13 @@ else:
 
 #Tambahan cheese
 XtraCheese = input("Apakah anda ingin Extra Cheese? (Ya/Tidak): ")
+if XtraCheese = "Ya"
+    HargaXtraCheese = 13636
+    HargaTotalAkhir = HargaUkuran + HargaXtraCheese
+    print("Total harga pizza anda: Rp. ", HargaTotalAkhir)
+else:
+    HargaTotalAkhir = HargaUkuran+0
+    print("("Baik, total harga pizza anda: Rp. ", HargaTotalAkhir)
 
 
 
