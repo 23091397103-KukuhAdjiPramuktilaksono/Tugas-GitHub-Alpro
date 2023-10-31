@@ -25,23 +25,23 @@ print("===============")
 Crust=input("pilih crust apa? ")
 if Crust=="StuffedCrust Cheese":
     HargaCrust=11818
-    Hargatotal=HargaTopping+HargaCrust
-    print("Harga pizza anda Rp.", Hargatotal)
+    HargaTotal=HargaTopping+HargaCrust
+    print("Harga pizza anda Rp.", HargaTotal)
 elif Crust=="StuffedCrust Sausage":
     HargaCrust=9091
-    Hargatotal=HargaTopping+HargaCrust
-    print("Harga pizza anda Rp. ", Hargatotal)
+    HargaTotal=HargaTopping+HargaCrust
+    print("Harga pizza anda Rp. ", HargaTotal)
 elif Crust=="Cheesy Bites":
     HargaCrust=13636
-    Hargatotal=HargaTopping+HargaCrust
-    print("harga pizza anda Rp. ", Hargatotal)
+    HargaTotal=HargaTopping+HargaCrust
+    print("harga pizza anda Rp. ", HargaTotal)
 elif Crust=="Crown Cust":
     HargaCrust=11818
-    Hargatotal=HargaTopping+HargaCrust
-    print("harga pizzamu Rp. ", Hargatotal)
+    HargaTotal=HargaTopping+HargaCrust
+    print("harga pizzamu Rp. ", HargaTotal)
 elif Crust=="Pan":
-    Hargatotal=HargaTopping
-    print("Harga pizzamu Rp. ", Hargatotal)
+    HargaTotal=HargaTopping
+    print("Harga pizzamu Rp. ", HargaTotal)
 else:
     print("mohon maaf jenis crust mu tidak valid")
    
@@ -53,25 +53,26 @@ print("Large")
 print("===============")
 Ukuran=input("pilih ukuran pizza anda: ")
 if Ukuran=="Personal":
-    Hargatotal+=0
-    print("Harga pizza anda Rp. ", Hargatotal)
+    HargaTotal+=0
+    print("Harga pizza anda Rp. ", HargaTotal)
 elif Ukuran=="Regular":
     HargaUkuran=55000
-    print("Harga pizza anda Rp. ", HargatotalUkuran)
+    HargaTotalUkuran=HargaTotal+HargaUkuran
+    print("Harga pizza anda Rp. ", HargaTotalUkuran)
 else: 
     HargaUkuran=89091
-    Hargatotalukuran=Hargatotal+HargaUkuran
-    Print("harga pizza anda Rp. ", Hargatotalukuran)
+    HargaTotalUkuran=HargaTotal+HargaUkuran
+    print("harga pizza anda Rp. ", HargaTotalUkuran)
 
 #Tambahan cheese
 XtraCheese = input("Apakah anda ingin Extra Cheese? (Ya/Tidak): ")
-if XtraCheese = "Ya"
+if XtraCheese == "Ya":
     HargaXtraCheese = 13636
-    HargaTotalAkhir = HargaUkuran + HargaXtraCheese
+    HargaTotalAkhir = HargaTotalUkuran + HargaXtraCheese
     print("Total harga pizza anda: Rp. ", HargaTotalAkhir)
 else:
-    HargaTotalAkhir = HargaUkuran+0
-    print("("Baik, total harga pizza anda: Rp. ", HargaTotalAkhir)
+    HargaTotalAkhir = HargaTotalUkuran+0
+    print("Baik, total harga pizza anda: Rp. ", HargaTotalAkhir)
 
 
 
