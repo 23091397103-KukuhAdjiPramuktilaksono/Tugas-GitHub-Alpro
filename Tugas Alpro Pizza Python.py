@@ -74,6 +74,12 @@ else:
     HargaTotalAkhir = HargaTotalUkuran+0
     print("Baik, total harga pizza anda: Rp. ", HargaTotalAkhir)
 
+#pembayaran
+UangDibayar=int(input("Jumlah uang yang anda bayarkan: Rp. "))
+Kembalian=UangDibayar-HargaTotalAkhir
+print("Jumlah kembalian adnda: Rp. ", Kembalian)
+print("Terimakasih telah beli di pizza python")
+
 
 
 
