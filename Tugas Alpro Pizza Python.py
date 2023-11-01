@@ -69,10 +69,10 @@ XtraCheese = input("Apakah anda ingin Extra Cheese? (Ya/Tidak): ")
 if XtraCheese == "Ya":
     HargaXtraCheese = 13636
     HargaTotalAkhir = HargaTotalUkuran + HargaXtraCheese
-    print("Total harga pizza anda: Rp. ", HargaTotalAkhir)
+    print("Your final bill : Rp. ", HargaTotalAkhir)
 else:
     HargaTotalAkhir = HargaTotalUkuran+0
-    print("Baik, total harga pizza anda: Rp. ", HargaTotalAkhir)
+    print("Your final bill : Rp. ", HargaTotalAkhir)
 
 #pembayaran
 UangDibayar=int(input("Jumlah uang yang anda bayarkan: Rp. "))
