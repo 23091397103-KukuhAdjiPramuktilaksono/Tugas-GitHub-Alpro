@@ -16,6 +16,7 @@ ToppingPizza=input("mau topping apa? ")
 #pilih crust
 print("===============")
 print("Varian Crust : ")
+print("===============")
 print("Pan")
 print("StuffedCrust Cheese")
 print("StuffedCrust Sausage")
