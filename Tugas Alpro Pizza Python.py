@@ -1,4 +1,4 @@
-print("Selamat Datang di Pizza Python")
+print("Halo selamat datang di Pizza Python! Silahkan pilih Topping Pizza mu")
 
 #pilih topping 
 print("===============")
@@ -24,24 +24,36 @@ print("Crown Cust")
 print("===============")
 Crust=input("pilih crust apa? ")
 if Crust=="StuffedCrust Cheese":
-    HargaCrust=11818
-    HargaTotal=HargaTopping+HargaCrust
-    print("Harga pizza anda Rp.", HargaTotal)
+    HargaCrust=55455
+    Personal=0
+    Regular=65455
+    Large=104545
+    print("Total harga pizza anda saat ini: Rp. ", HargaCrust)
 elif Crust=="StuffedCrust Sausage":
-    HargaCrust=9091
-    HargaTotal=HargaTopping+HargaCrust
-    print("Harga pizza anda Rp. ", HargaTotal)
+    HargaCrust=52728
+    Personal=0
+    Regular=64545
+    Large=102727
+    print("Total harga pizza anda saat ini: Rp. ", HargaCrust)
 elif Crust=="Cheesy Bites":
-    HargaCrust=13636
-    HargaTotal=HargaTopping+HargaCrust
-    print("harga pizza anda Rp. ", HargaTotal)
+    HargaCrust=57273
+    Personal=0
+    Regular=66364
+    Large=107273
+    Hargatotal=HargaTopping+HargaCrust
+    print("Total harga pizza anda saat ini: Rp. ", HargaCrust)
 elif Crust=="Crown Cust":
-    HargaCrust=11818
-    HargaTotal=HargaTopping+HargaCrust
-    print("harga pizzamu Rp. ", HargaTotal)
+    HargaCrust=55455
+    Personal=0
+    Regular=65455
+    Large=104545
+    print("Total harga pizza anda saat ini: Rp. ", HargaCrust)
 elif Crust=="Pan":
-    HargaTotal=HargaTopping
-    print("Harga pizzamu Rp. ", HargaTotal)
+    HargaCrust=43637
+    Personal=0
+    Regular=57273
+    Large=89091
+    print("Total harga pizza anda saat ini: Rp. ", HargaCrust)
 else:
     print("mohon maaf jenis crust mu tidak valid")
    
