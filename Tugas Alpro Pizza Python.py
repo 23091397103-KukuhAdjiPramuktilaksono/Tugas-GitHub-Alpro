@@ -65,33 +65,34 @@ print("Large")
 print("===============")
 Ukuran=input("pilih ukuran pizza anda: ")
 if Ukuran=="Personal":
-    HargaTotal+=0
-    print("Harga pizza anda Rp. ", HargaTotal)
+    Harga_Total_Ukuran=HargaCrust+Personal
+    Harga_Xtra_Cheese=13636
+    print("Total harga pizza anda saat ini: Rp. ", Harga_Total_Ukuran)
 elif Ukuran=="Regular":
-    HargaUkuran=55000
-    HargaTotalUkuran=HargaTotal+HargaUkuran
-    print("Harga pizza anda Rp. ", HargaTotalUkuran)
-else: 
-    HargaUkuran=89091
-    HargaTotalUkuran=HargaTotal+HargaUkuran
-    print("harga pizza anda Rp. ", HargaTotalUkuran)
+    Harga_Total_Ukuran=HargaCrust+Regular
+    Harga_Xtra_Cheese=16364
+    print("Total harga pizza anda saat ini: Rp. ", Harga_Total_Ukuran)
+else:
+    Harga_Total_Ukuran=HargaCrust+Large
+    Harga_Xtra_Cheese=19091
+    print("Total harga pizza anda saat ini: Rp. ", Harga_Total_Ukuran)
 
 #Tambahan cheese
 XtraCheese = input("Apakah anda ingin XtraCheese?  (y/n)")
 if XtraCheese == "y":
     Harga_Total_Akhir=Harga_Total_Ukuran+Harga_Xtra_Cheese
-    print("Rincian pesanan anda: Pizza ", ToppingPizza, Crust, Ukuran, XtraCheese)
+    print("Rincian pesanan anda: Pizza ", ToppingPizza, Crust, Ukuran, "XtraCheese")
     print("Total harga pizza anda sebesar: Rp. ", Harga_Total_Akhir)
 else:
     Harga_Total_Akhir = Harga_Total_Ukuran
     print("Rincian pesanan anda: Pizza ", ToppingPizza, Crust, Ukuran)
     print("Total harga pizza pesanan anda sebesar: Rp. ", Harga_Total_Akhir)
     
-#pembayaran
-UangDibayar=int(input("Jumlah uang yang anda bayarkan: Rp. "))
-Kembalian=UangDibayar-HargaTotalAkhir
-print("Jumlah kembalian adnda: Rp. ", Kembalian)
-print("Terimakasih telah beli di pizza python")
+#Pembayaran
+Uang_Dibayar=int(input("Jumlah uang yang anda bayarkan: Rp. "))
+Kembalian=Uang_Dibayar-Harga_Total_Akhir
+print("Jumlah kembalian anda: Rp. ", Kembalian)
+print("Terimakasih telah beli di Pizza Python")
 
 
 
